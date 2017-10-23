@@ -1,0 +1,3 @@
+# stop 
+
+docker stop mysql-todolist todolist
