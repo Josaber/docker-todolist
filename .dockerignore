@@ -1,0 +1,8 @@
+# docker ignore
+
+auto/
+data/
+target/
+*.md
+.idea
+*.iml
