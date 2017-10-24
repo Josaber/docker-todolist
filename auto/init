@@ -1,8 +1,8 @@
 # init
 
-docker run -v $(pwd)/../data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql-todolist --rm mysql &
+docker run -d -v $(pwd)/../data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql-todolist --rm mysql
 
-# docker run -v $(pwd)/../data:/var/lib/mysql --name mysql-todolist --rm mysql &
+# docker run -d -v $(pwd)/../data:/var/lib/mysql --name mysql-todolist --rm mysql
 
 cd ..
 docker rmi mvn-project
